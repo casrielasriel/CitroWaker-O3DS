@@ -1,54 +1,17 @@
-<p align="center">
-  <img src="assets/citrowaker-header.svg" alt="CitroWaker — The Great Sea. Two screens." width="100%">
-</p>
+## CitroWaker o3DS
 
-<p align="center">
-  <strong>A familiar sea. A new handheld home.</strong><br>
-  An experimental native port of <em>The Legend of Zelda: The Wind Waker</em> for the New Nintendo 3DS family.
-</p>
+A fork of CitroWaker specialized for o3DS with stable performance on New aswell.
 
-<p align="center">
-  <a href="#install-in-three-steps"><b>Install</b></a> &nbsp; · &nbsp;
-  <a href="#the-bottom-screen">Bottom screen</a> &nbsp; · &nbsp;
-  <a href="#development-status">Status</a> &nbsp; · &nbsp;
-  <a href="docs/PERFORMANCE.md">Performance</a> &nbsp; · &nbsp;
-  <a href="docs/DEVELOPMENT.md">Development guide</a>
-</p>
-
-<p align="center">
-  <img alt="New 3DS family" src="https://img.shields.io/badge/console-New%203DS%20%C2%B7%20New%202DS%20XL-1d4f5c">
-  <img alt="Installer for Windows and Linux" src="https://img.shields.io/badge/installer-Windows%20%C2%B7%20Linux-c9b673">
-  <img alt="Bring your own USA disc" src="https://img.shields.io/badge/disc-your%20own%20GZLE01-30535d">
-  <img alt="MIT licence for project code" src="https://img.shields.io/badge/licence-MIT-0e2530">
-</p>
-
-> **Early release.** Gameplay runs on real New 3DS hardware, with sound, saves and the touch screen. It is **not full speed yet** (heavy scenes run around 12 fps on console) and some console rendering faults remain; full-game completion is unverified. Keep backups of `/3ds/ww3ds/user/`.
+> **There is quite literally nothing new yet.** I haven't pushed anything YET but i AM working on it.
 
 ## The project
-*AI DISCLAIMER* Codex and Claude Code were used for a solid chunk of this, as a college student i literally do not have the time to do it all alone.
+*AI DISCLAIMER*
 
-CitroWaker brings Wind Waker's native game code to the **New Nintendo 3DS, New 3DS XL and New 2DS XL**. Built on the community decompilation, SwitchWaker and Aurora, it translates the game's GameCube graphics commands for the handheld's PICA GPU.
+***From Upstream:*** Codex and Claude Code were used for a solid chunk of this, as a college student i literally do not have the time to do it all alone.
 
-The goal is the original adventure with controls and presentation that belong on two screens. Previously known as **Project Windfall**.
+As for the fork itself, I will be attempting to keep myself AWAY from AI usage with this, but it MAY be used considering my C++ skills are not too great with all the new stuff it has over C (classes..)
 
-<table>
-<tr>
-<td width="50%" align="center">
-<img src="assets/outset-bridge.png" alt="Outset Island's rope bridge in the 3DS port, captured in Azahar" width="100%"><br>
-<strong>Back to Outset</strong><br>
-<sub>The island's rope bridge, running in the development build.</sub>
-</td>
-<td width="50%" align="center">
-<img src="assets/outset-coast.png" alt="Outset Island's coast and lookout in the 3DS port, captured in Azahar" width="100%"><br>
-<strong>A sea worth exploring</strong><br>
-<sub>The coast and lookout at the port's native 400 × 240 output.</sub>
-</td>
-</tr>
-</table>
-
-<sub>Unmodified Azahar captures · Emulator images do not establish real-console rendering correctness or performance.</sub>
-
-## Install in three steps
+## Install in three steps (From Upstream)
 
 **You need:** a **New** 3DS / 3DS XL / 2DS XL with custom firmware and [FBI](https://github.com/Steveice10/FBI), and **your own** USA disc image of *The Wind Waker* (`GZLE01`, plain `.iso`). Nothing from the game is downloaded or included.
 
